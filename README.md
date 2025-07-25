@@ -1,1 +1,7 @@
-# n8n-on-render
+FROM n8nio/n8n
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=admin
+ENV N8N_BASIC_AUTH_PASSWORD=Limpos28%
+
+EXPOSE 5678# n8n-on-render
