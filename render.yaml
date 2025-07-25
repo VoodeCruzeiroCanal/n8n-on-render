@@ -7,7 +7,7 @@ services:
     dockerfilePath: Dockerfile
     envVars:
       - key: N8N_HOST
-        value: n8n-yourname.onrender.com
+        value: n8n-CVdC.onrender.com
       - key: WEBHOOK_URL
         value: https://n8n-yourname.onrender.com/
       - key: N8N_PORT
